@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# Web for school or university or course selling platform in react with three js 3d animation 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
