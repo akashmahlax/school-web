@@ -42,7 +42,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 1 }}
           >
-            At DAV School, we provide a transformative education that shapes students' minds, builds character, and prepares them for future success.
+            At Mahla School, we provide a transformative education that shapes students' minds, builds character, and prepares them for future success.
           </motion.p>
           <motion.button
             className="mt-8 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform"

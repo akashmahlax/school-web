@@ -61,7 +61,7 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.6 }}
           >
-            123 DAV School Avenue, City, State
+             Mahla School , Qadian, punjab
           </motion.p>
           <motion.p
             className="text-gray-300 text-sm mb-2"
@@ -69,7 +69,7 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.8 }}
           >
-            Phone: (123) 456-7890
+            Phone: (+91) 78140 02784
           </motion.p>
           <motion.p
             className="text-gray-300 text-sm"
@@ -77,14 +77,15 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 2 }}
           >
-            Email: contact@davschool.edu
+            Email: contact@mahlaschool.edu <br/>
+            Email: akashmahla406@gmail.com
           </motion.p>
         </div>
 
         {/* Social Media Icons */}
         <div className="flex space-x-4">
           <motion.a
-            href="https://facebook.com"
+            href="https://facebook.com/akashmahlax"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-yellow-400 transition"
@@ -95,7 +96,7 @@ const Footer = () => {
             <FaFacebookF size={24} />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://X.com/akashmahla6"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-yellow-400 transition"
@@ -106,7 +107,7 @@ const Footer = () => {
             <FaTwitter size={24} />
           </motion.a>
           <motion.a
-            href="https://instagram.com"
+            href="https://instagram.com/akashmahlax"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-yellow-400 transition"
@@ -117,7 +118,7 @@ const Footer = () => {
             <FaInstagram size={24} />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://linkedin.com/akashmahlax"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-yellow-400 transition"
@@ -132,7 +133,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-8 text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} DAV School. All rights reserved.
+        © {new Date().getFullYear()} Mahla School. All rights reserved.
       </div>
     </footer>
   );

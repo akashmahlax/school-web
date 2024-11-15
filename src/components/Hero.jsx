@@ -40,7 +40,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Dalla school is committed to nurturing students with the knowledge, skills, and values they need to succeed.
+          Mahla school is committed to nurturing students with the knowledge, skills, and values they need to succeed.
         </motion.p>
 
         <motion.button
