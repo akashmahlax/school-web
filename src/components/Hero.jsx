@@ -2,10 +2,12 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere, Stars } from '@react-three/drei';
 import { motion } from 'framer-motion';
+import MatrixRain from '../components/matrixrain';
 
 const Hero = () => {
   return (
     <div className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 text-white overflow-hidden">
+      <MatrixRain/>
       
       {/* Three.js Canvas for 3D Animation */}
       <Canvas className="absolute inset-0 z-0">
