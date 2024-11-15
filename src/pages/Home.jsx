@@ -7,6 +7,7 @@ import AboutUs from '../pages/AboutUs';
 import EventsCalendar from '../pages/EventsCalendar';
 import ContactUs from '../pages/ContactUs';
 import AcademicPrograms from './AcademicPrograms';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -113,6 +114,7 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-r from-teal-800 to-blue-800 text-center">
         <ContactUs />
       </section>
+      <Footer/>
     </div>
   );
 };
