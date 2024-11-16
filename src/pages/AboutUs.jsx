@@ -27,7 +27,7 @@ const AboutUs = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          About DAV School
+          About Mahla School
         </motion.h2>
         <motion.p
           className="mt-4 text-lg text-gray-300"
